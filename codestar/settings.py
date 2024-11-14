@@ -35,7 +35,7 @@ ALLOWED_HOSTS = ['8000-mhmdbaashn-djangoblog-nuz3tdivm3f.ws.codeinstitute-ide.ne
                 '.herokuapp.com'
 ]
 
-
+ 
 
 # Application definition
 
