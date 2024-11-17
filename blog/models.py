@@ -42,4 +42,7 @@ class Comment(models.Model):
         return f"Comment {self.body} by {self.author}"    
 
 
+    def profile_page(request):
+         user = get_object_or_404(User, user=request.user)
+         comments = user.commenter.all()
 
